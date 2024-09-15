@@ -1,0 +1,139 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a3e32;
+    color: #fff;
+    text-align: center;
+}
+
+header nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #82c4b6;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro span {
+    color: #82c4b6;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 10px 10px;
+    border: 2px solid #82c4b6;
+    background-color: transparent;
+    color: #82c4b6;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #82c4b6;
+    color: #fff;
+}
+
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #1a3e32;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #1a3e32;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #82c4b6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #555;
+}
